@@ -1,0 +1,21 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-merpapp-dev-110530-authRole",
+      "UnauthRoleArn": "arn:aws:iam::405522164029:role/amplify-merpapp-dev-110530-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::405522164029:role/amplify-merpapp-dev-110530-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-merpapp-dev-110530-deployment",
+      "UnauthRoleName": "amplify-merpapp-dev-110530-unauthRole",
+      "StackName": "amplify-merpapp-dev-110530",
+      "StackId": "arn:aws:cloudformation:us-east-1:405522164029:stack/amplify-merpapp-dev-110530/7ef6b7e0-89ca-11ec-bc58-0a54d2946cc7",
+      "AmplifyAppId": "d2me2eyez14cku"
+    },
+    "categories": {
+      "auth": {
+        "merpappe5ca47e7": {},
+        "true": {}
+      }
+    }
+  }
+}
