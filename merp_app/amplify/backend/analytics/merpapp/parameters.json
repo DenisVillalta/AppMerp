@@ -1,0 +1,21 @@
+{
+    "appName": "merpapp",
+    "roleName": "pinpointLambdaRole560a9113",
+    "cloudformationPolicyName": "cloudformationPolicy560a9113",
+    "cloudWatchPolicyName": "cloudWatchPolicy560a9113",
+    "pinpointPolicyName": "pinpointPolicy560a9113",
+    "authPolicyName": "pinpoint_amplify_560a9113",
+    "unauthPolicyName": "pinpoint_amplify_560a9113",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}
